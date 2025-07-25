@@ -11,17 +11,21 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/res.css">
     <script src="https://kit.fontawesome.com/278b9e3593.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
     <header>
             <div class="nav-section">
-                <img src="assets/logo.png" alt="">
+                <img class="top-logo" src="assets/logo.png" alt="">
                 <div class="nav-bar-titles">
                     <a href=""><button id="home-btn" class="nav-btn inter-normal">Home</button></a>
                     <a href=""><button class="nav-btn inter-normal">Shop</button></a>
                     <a href=""><button class="nav-btn inter-normal">About</button></a>
+                    <a href=""><button id="cart-btn" class="nav-btn inter-normal"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</button></a>
+                </div>
+                <div class="nav-bar-titles-mini">
                     <a href=""><button id="cart-btn" class="nav-btn inter-normal"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</button></a>
                 </div>
             </div>
@@ -36,7 +40,7 @@
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
                 </p>
             </div>
-            <img src="assets/hero-flower.png" alt="">
+            <img class="hero-image" src="assets/hero-flower.png" alt="">
         </div>
         <div class="cart-section">
             <div class="cart-content">
@@ -44,7 +48,7 @@
                         <span class="s-c">Our</span> Plants
                 </h3>
                 <p class="cart-p inter-normal">
-                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh. 
                 </p>
             <div class="items">
                 <div class="option inter-normal">
@@ -109,10 +113,10 @@
             </div>
             <div class="messege">
                 <h2 class="m-h noto-serif-normal">
-                    Flower & Plants <br>Lover
+                    Flower & Plants Lover
                 </h2>
                 <div class="m-l inter-normal">
-                    <ul>
+                    <ul class="m-l-p-p">
                     <li><p class="m-l-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p></li>
                     <li><p class="m-l-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p></li>
                     <li><p class="m-l-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p></li>
@@ -134,15 +138,15 @@
                 <div class="offer-i">
                     <img class="offer-img o-i-t1" src="assets/deal-bloom.png" alt="">
                     <div class="offer-w">
-                        <h3 class="noto-serif-normal">60% Off | Bloom Plant</h3>
-                        <a class=" o-w-l inter-normal" href="">Shop Now</a>
+                        <h3 class="o-i-c1-h noto-serif-normal">60% Off | Bloom Plant</h3>
+                        <a class="o-i-c1-a o-w-l inter-normal" href="">Shop Now</a>
                     </div>
                 </div>
                 <div class="offer-i">
                     <img class="offer-img o-i-t1" src="assets/deal-ana.png" alt="">
                     <div class="offer-w">
-                        <h3 class="noto-serif-normal">30% Off | Ana  Plant</h3>
-                        <a class=" o-w-l inter-normal" href="">Shop Now</a>
+                        <h3 class="o-i-c1-h noto-serif-normal">30% Off | Ana  Plant</h3>
+                        <a class="o-i-c1-a o-w-l inter-normal" href="">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -181,7 +185,7 @@
                 <li class="f-n-l"><a href="">FAQ</a></li>
                 <li class="f-n-l"><a href="">Contact Us</a></li>
             </div>
-            <div class="nav1">
+            <div class="nav1 part2">
                 <li class="f-n-l"><a href="">Features</a></li>
                 <li class="f-n-l"><a href="">Pricing</a></li>
                 <li class="f-n-l"><a href="">Privacy Policy</a></li>

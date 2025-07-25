@@ -15,6 +15,10 @@
       "wdth" 100;
   }
 
+  .body{
+    width: 100%;
+    margin: 0%;
+  }
 
 .nav-section{
     display: flex;
@@ -32,12 +36,15 @@
 .nav-btn{
     background-color: transparent;
     color: rgba(137, 135, 161, 1);
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
     padding: 18px 0px;
     border: none;
 }
 
+.nav-bar-titles-mini{
+    display: none;
+}
 #home-btn {
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -71,6 +78,7 @@
 .bannar-p{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.6em;
+    
 }
 .cart-section {
     width: 80%;
@@ -83,11 +91,13 @@
 .cart-h {
     font-size: 3em;
     margin-bottom: 16px;
+    margin-top: 150px;
 }
 .cart-p {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.6em;
     padding: 0px 120px;
+    margin-bottom: 80px;
 }
 
 .option {
@@ -134,17 +144,19 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 80px;
-    margin: 150px auto;
+    margin: 250px auto 150px auto;
     align-items: center;
 }
 .m-h{
-    font-size: 4em;
+    font-size: 3.4em;
     font-weight: bold;
+    margin-bottom: 0%;
+    
 }
 
 .m-l{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.6em;
+    font-size: 1.35em;
     width: 100%;
 }
 
@@ -196,7 +208,7 @@
 }
 
 .offer-img{
-    filter: brightness(0.6);
+    filter: brightness(0.5);
     width: 100%;
     
 }
@@ -290,7 +302,7 @@
 }
 .e-p-w{
     color: rgba(0, 0, 0, 0.5);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1em;
 }
 .sub-btn{
@@ -353,3 +365,5 @@
     margin-left: 27%;
     margin-top: -8%;
 }
+
+
